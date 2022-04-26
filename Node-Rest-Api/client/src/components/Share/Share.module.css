@@ -1,0 +1,67 @@
+.shareContainer {
+  width: 100%;
+  height: 10rem;
+  border-radius: 0.8rem;
+  box-shadow: 0px 0px 8px -1px rgba(109, 107, 107, 0.8);
+}
+.shareWrapper {
+  padding: 1rem;
+}
+.shareTopImg {
+  height: 3rem;
+  width: 3rem;
+  object-fit: cover;
+  border-radius: 100%;
+  margin-right: 0.8rem;
+}
+.shareTop {
+  display: flex;
+  align-items: center;
+}
+.shareHr {
+  margin: 1rem;
+}
+.shareInput {
+  border: none;
+  outline: none;
+  width: 90%;
+}
+
+.shareBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.shareOptions {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 1rem;
+}
+.shareOption {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.shareOptionText {
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.shareOptionIcon {
+  font-size: 1.2rem !important;
+}
+
+.shareButton {
+  border: none;
+  width: 4rem;
+  padding: 0.5rem;
+  text-align: center;
+  color: white;
+  background-color: #36a749;
+  cursor: pointer;
+  border-radius: 0.8rem;
+  font-weight: 500;
+  margin-right: 1rem;
+}

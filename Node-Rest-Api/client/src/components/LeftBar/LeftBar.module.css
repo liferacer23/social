@@ -1,0 +1,54 @@
+.leftBarContainer{
+    flex:1.8;
+    height: calc(100vh - 8vh);
+    overflow-y:scroll ;
+    position: sticky;
+    top:50px;
+}
+
+.leftWrapper{
+    padding: 1.5rem;
+}
+.leftBarList{
+    list-style: none;
+}
+.leftBarListItem{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.4rem;
+    cursor: pointer;
+}
+.leftBarIcon{
+    margin-right: 0.5rem;
+}
+.leftBarButton{
+    width: 9rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 1rem;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    transition: 1s;
+}
+.leftBarButton:hover{
+    background-color: rgb(185, 240, 197);
+}
+.leftBarFriendList{
+    list-style: none;
+}
+.leftBarFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.leftBarFriendImg{
+    border-radius: 100%;
+    width: 2rem;
+    height: 2rem;
+    margin-right: 1rem;
+    object-fit: cover;
+    cursor: pointer;
+}

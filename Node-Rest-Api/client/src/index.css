@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: "Montserrat";
+  box-sizing: border-box;
+  
+}
+::-webkit-scrollbar{
+  width: 6px;
+  
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(241, 237, 237);
+  
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(170, 168, 168);
+  border-radius: 1rem;
+}
